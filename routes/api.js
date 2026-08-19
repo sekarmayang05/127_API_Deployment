@@ -7,6 +7,7 @@ const genreController = require('../controller/genreController');
 const authMiddleware = require('../middleware/authMiddleware');
 
 
+
 // User routes
 router.post('/register', userController.register);
 router.post('/login', userController.login);
